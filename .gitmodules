@@ -28,3 +28,9 @@
 [submodule "home/.vim/bundle/vim-rails"]
 	path = home/.vim/bundle/vim-rails
 	url = git@github.com:tpope/vim-rails.git
+[submodule "home/.vim/bundle/matchit"]
+	path = home/.vim/bundle/matchit
+	url = https://github.com/tmhedberg/matchit.git
+[submodule "home/.vim/bundle/vim-indent-object"]
+	path = home/.vim/bundle/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object.git
