@@ -23,4 +23,4 @@ let g:airline#extensions#ale#enabled = 1
 " Go stuff
 " Just autoimport for me, OK?
 let g:go_fmt_command = "goimports"
-let g:ale_linters = {'go': ['gofmt', 'go build']}
+let g:ale_linters = { 'go': ['gofmt', 'go build'], 'ruby': ['ruby'] }
