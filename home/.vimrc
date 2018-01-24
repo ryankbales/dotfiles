@@ -8,6 +8,7 @@ colorscheme solarized
 set expandtab
 set tabstop=2
 set shiftwidth=2
+set nu
 
 let loaded_netrwPlugin = 1
 
@@ -24,3 +25,8 @@ let g:airline#extensions#ale#enabled = 1
 " Just autoimport for me, OK?
 let g:go_fmt_command = "goimports"
 let g:ale_linters = { 'go': ['gofmt', 'go build'], 'ruby': ['ruby'] }
+
+" Allow reselection of last pasted text.
+" source:
+" http://vim.wikia.com/wiki/Selecting_your_pasted_text
+nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
